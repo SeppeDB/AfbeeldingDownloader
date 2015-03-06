@@ -29,6 +29,8 @@ public class MyService extends Service {
     public int onStartCommand(Intent intent, int flags, int startId) {
 
         Toast.makeText(this, "Service Starting", Toast.LENGTH_LONG).show();
+        String hallo = "hallo";
+
 
         try {
             URL url1 = new URL("http://img3.wikia.nocookie.net/__cb20111221042919/finalfantasy/images/thumb/2/2b/FF_1_PSP.jpg/250px-FF_1_PSP.jpg");
